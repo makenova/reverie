@@ -1,5 +1,5 @@
 # Reverie
-![tracespace back](./docs/tracespace/bottom.svg "tracespace back")
+![tracespace back](./docs/reverie_layers.png "tracespace back")
 
 The reverie is a hot swap mini 1800 inspired by the [Elongate](https://geekhack.org/index.php?topic=106527), [Clarabelle](https://geekhack.org/index.php?topic=106380.0), and [Garbage Truck](https://www.reddit.com/r/MechanicalKeyboards/comments/gkb4nt/the_garbage_truck/) keyboards.
 I made this because hot swap is usually left out in smaller runs of high end coustoms.
