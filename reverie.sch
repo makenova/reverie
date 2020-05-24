@@ -205,8 +205,6 @@ F 3 "" H 1950 4850 50  0001 C CNN
 	1    1950 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 4850 2150 4850
 $Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 5EC4A293
@@ -2505,6 +2503,10 @@ Wire Wire Line
 	1900 4150 1950 4150
 Wire Wire Line
 	1950 4150 1950 4050
-NoConn ~ 3350 4050
 NoConn ~ 3350 6250
+NoConn ~ 2150 4650
+Text GLabel 3350 4050 2    50   Input ~ 0
+COL3
+Wire Wire Line
+	2150 4850 1950 4850
 $EndSCHEMATC

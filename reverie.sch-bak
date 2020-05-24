@@ -2505,4 +2505,9 @@ Wire Wire Line
 	1900 4150 1950 4150
 Wire Wire Line
 	1950 4150 1950 4050
+NoConn ~ 3350 6250
+NoConn ~ 5050 6600
+NoConn ~ 2150 4650
+Text GLabel 3350 4050 2    50   Input ~ 0
+COL3
 $EndSCHEMATC
