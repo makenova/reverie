@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 11)
+    (drawings 12)
     (tracks 1234)
     (zones 0)
     (modules 140)
@@ -6587,6 +6587,9 @@
     )
   )
 
+  (gr_text "REVERIE_V0\n\nBY MAKENOVA" (at 63.246 112.649) (layer F.SilkS)
+    (effects (font (size 3 3) (thickness 0.3)))
+  )
   (gr_line (start 69.604454 73.078101) (end 69.75841 73.09582) (layer Edge.Cuts) (width 0.2) (tstamp 5ECA7850))
   (gr_line (start 324.477 73.16) (end 69.75841 73.09582) (layer Edge.Cuts) (width 0.2) (tstamp 5EC6346F))
   (gr_line (start -8.898 73.16) (end 55.118 73.025) (layer Edge.Cuts) (width 0.2) (tstamp 5EC63520))
@@ -7834,7 +7837,7 @@
   (segment (start 54.229 103.378) (end 51.181 100.33) (width 0.254) (layer F.Cu) (net 102))
   (segment (start 51.181 100.33) (end 51.181 96.266) (width 0.254) (layer F.Cu) (net 102))
 
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5ECC2766) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 5ECC6391) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -11983,7 +11986,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5ECC2763) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 5ECC638E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
