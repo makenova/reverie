@@ -205,8 +205,6 @@ F 3 "" H 1950 4850 50  0001 C CNN
 	1    1950 4850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1950 4850 2150 4850
 $Comp
 L Device:Crystal_GND24_Small Y1
 U 1 1 5EC4A293
@@ -2464,7 +2462,7 @@ U 1 1 5EE17EBD
 P 5900 6350
 F 0 "J1" H 5621 6446 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5621 6355 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 5650 6400 50  0001 C CNN
+F 2 "random-keyboard-parts:Reset_Pretty-Mask" V 5650 6400 50  0001 C CNN
 F 3 " ~" H 4625 5800 50  0001 C CNN
 	1    5900 6350
 	1    0    0    -1  
@@ -2506,8 +2504,9 @@ Wire Wire Line
 Wire Wire Line
 	1950 4150 1950 4050
 NoConn ~ 3350 6250
-NoConn ~ 5050 6600
 NoConn ~ 2150 4650
 Text GLabel 3350 4050 2    50   Input ~ 0
 COL3
+Wire Wire Line
+	2150 4850 1950 4850
 $EndSCHEMATC

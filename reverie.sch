@@ -2462,7 +2462,7 @@ U 1 1 5EE17EBD
 P 5900 6350
 F 0 "J1" H 5621 6446 50  0000 R CNN
 F 1 "AVR-ISP-6" H 5621 6355 50  0000 R CNN
-F 2 "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical" V 5650 6400 50  0001 C CNN
+F 2 "random-keyboard-parts:Reset_Pretty-Mask" V 5650 6400 50  0001 C CNN
 F 3 " ~" H 4625 5800 50  0001 C CNN
 	1    5900 6350
 	1    0    0    -1  
